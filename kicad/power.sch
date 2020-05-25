@@ -117,30 +117,21 @@ Text HLabel 6100 2950 2    50   Output ~ 0
 Wire Wire Line
 	6100 2950 5650 2950
 Connection ~ 5650 2950
-Text HLabel 3250 2450 1    50   Output ~ 0
+Text HLabel 3150 2450 1    50   Output ~ 0
 2V4
 Connection ~ 3750 2750
 $Comp
 L Device:Battery BT1
 U 1 1 5EC99AE6
-P 3250 3050
-F 0 "BT1" H 3358 3096 50  0000 L CNN
-F 1 "Battery" H 3358 3005 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" V 3250 3110 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BC2AAAL-datasheet.pdf" V 3250 3110 50  0001 C CNN
-F 4 "BC2AAAL-ND" H 3250 3050 50  0001 C CNN "DigiKey_PartNumber"
-	1    3250 3050
+P 1750 3050
+F 0 "BT1" H 1858 3096 50  0000 L CNN
+F 1 "Battery" H 1858 3005 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" V 1750 3110 50  0001 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BC2AAAL-datasheet.pdf" V 1750 3110 50  0001 C CNN
+F 4 "BC2AAAL-ND" H 1750 3050 50  0001 C CNN "DigiKey_PartNumber"
+	1    1750 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 2450 3250 2750
-Wire Wire Line
-	3250 2750 3750 2750
-Connection ~ 3250 2750
-Wire Wire Line
-	3250 2750 3250 2850
-Wire Wire Line
-	3250 3250 3250 3300
 Wire Wire Line
 	3250 3300 3750 3300
 Wire Wire Line
@@ -159,4 +150,57 @@ F 4 "BC2AAAL-ND" H 5000 3700 50  0001 C CNN "DigiKey_PartNumber"
 	1    5000 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L data-logger:DMP2008UFG-7 U1
+U 1 1 5ECAF515
+P 2650 3050
+F 0 "U1" H 2650 2685 50  0000 C CNN
+F 1 "DMP2008UFG-7" H 2650 2776 50  0000 C CNN
+F 2 "data-logger:DMP2008UFG-7" H 2650 2500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP2008UFG.pdf" H 2650 3050 50  0001 C CNN
+F 4 "DMP2008UFG-7DICT-ND" H 2650 2600 50  0001 C CNN "DigiKey_PartNumber"
+	1    2650 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 2850 2250 2850
+Wire Wire Line
+	2250 2850 2250 2900
+Wire Wire Line
+	2250 2900 2250 3000
+Connection ~ 2250 2900
+Wire Wire Line
+	2250 3000 2250 3100
+Connection ~ 2250 3000
+Wire Wire Line
+	2250 3100 2250 3200
+Connection ~ 2250 3100
+Wire Wire Line
+	3250 3300 3250 2900
+Wire Wire Line
+	3250 2900 3050 2900
+Wire Wire Line
+	3250 3300 1750 3300
+Wire Wire Line
+	1750 3300 1750 3250
+Connection ~ 3250 3300
+Wire Wire Line
+	3150 2750 3150 2450
+Wire Wire Line
+	3150 2750 3750 2750
+Wire Wire Line
+	3150 2750 3150 3000
+Wire Wire Line
+	3150 3200 3050 3200
+Connection ~ 3150 2750
+Wire Wire Line
+	3050 3100 3150 3100
+Connection ~ 3150 3100
+Wire Wire Line
+	3150 3100 3150 3200
+Wire Wire Line
+	3050 3000 3150 3000
+Connection ~ 3150 3000
+Wire Wire Line
+	3150 3000 3150 3100
 $EndSCHEMATC

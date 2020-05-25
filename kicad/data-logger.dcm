@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DMP2008UFG-7
+F https://www.diodes.com/assets/Datasheets/DMP2008UFG.pdf
+$ENDCMP
+#
 #End Doc Library
