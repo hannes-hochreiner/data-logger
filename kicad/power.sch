@@ -126,9 +126,9 @@ U 1 1 5EC99AE6
 P 1750 3050
 F 0 "BT1" H 1858 3096 50  0000 L CNN
 F 1 "Battery" H 1858 3005 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" V 1750 3110 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BC2AAAL-datasheet.pdf" V 1750 3110 50  0001 C CNN
-F 4 "BC2AAAL-ND" H 1750 3050 50  0001 C CNN "DigiKey_PartNumber"
+F 2 "data-logger:PinSocket_1x02_P2.54mm_Horizontal" V 1750 3110 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf" V 1750 3110 50  0001 C CNN
+F 4 "SAM1225-02-ND" H 1750 3050 50  0001 C CNN "DigiKey_PartNumber"
 	1    1750 3050
 	1    0    0    -1  
 $EndComp
