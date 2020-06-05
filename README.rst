@@ -3,6 +3,11 @@ data-logger
 
 Gadget writing sensor data to an SD card.
 
+.. image:: assets/front.jpg
+
+.. image:: assets/back.jpg
+
+
 First Tests
 ===========
 .. image:: assets/mcu_populated.jpg
