@@ -34,11 +34,12 @@ Tests
 |communication with sensors | to be tested |
 +---------------------------+--------------+
 
-Improvements
-============
+Improvement Ideas
+=================
 
 * a status LED would be helpful
 * connect the card detection
+* power switch for the SD card
 
 References
 ==========
