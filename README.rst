@@ -8,7 +8,7 @@ Gadget writing sensor data to an SD card.
 .. image:: assets/back.jpg
 
 
-First Tests
+Tests
 ===========
 .. image:: assets/mcu_populated.jpg
 
@@ -21,8 +21,16 @@ First Tests
 +--------------------------+--------------+
 |communication with SD card|      OK      |
 +--------------------------+--------------+
+|reading files from SD card|      OK      |
++--------------------------+--------------+
 |communication with sensors| to be tested |
 +--------------------------+--------------+
+
+Improvements
+============
+
+* a status LED would be helpful
+* connect the card detection
 
 References
 ==========
