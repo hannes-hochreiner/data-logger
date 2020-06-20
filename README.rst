@@ -7,10 +7,12 @@ Gadget writing sensor data to an SD card.
 
 .. image:: assets/back.jpg
 
+Assembly Snapshots
+==================
+.. image:: assets/mcu_populated.jpg
 
 Tests
-===========
-.. image:: assets/mcu_populated.jpg
+=====
 
 +---------------------------+--------------+
 |unit                       |    status    |
