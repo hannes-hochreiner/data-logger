@@ -29,7 +29,7 @@ Tests
 +---------------------------+--------------+
 |reading files from SD card |      OK      |
 +---------------------------+--------------+
-|writing files from SD card | to be tested |
+|writing files to SD card   |      OK      |
 +---------------------------+--------------+
 |communication with sensors | to be tested |
 +---------------------------+--------------+
