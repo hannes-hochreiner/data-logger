@@ -31,7 +31,7 @@ Tests
 +---------------------------+--------------+
 |writing files to SD card   |      OK      |
 +---------------------------+--------------+
-|communication with sensors | to be tested |
+|communication with sensors |      OK      |
 +---------------------------+--------------+
 
 Improvement Ideas
